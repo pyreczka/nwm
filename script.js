@@ -2,7 +2,7 @@ document.querySelector('.ladny-przycisk').addEventListener('click', function () 
     alert('No Widzisz Nic Się Nie Stało');
 });
 
-document.querySelector('.github').addEventListener('click', function () {
+document.querySelector('github').addEventListener('click', function () {
     window.location.href = 'https://github.com/pyreczka/';
 });
 
