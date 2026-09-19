@@ -65,3 +65,24 @@ p {
     cursor: default;
     outline: none;
 }
+
+.przycisk {
+    /* Wygląd podstawowy */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #24292e; /* Kolor tła (ciemny, w stylu GitHuba) */
+    color: #ffffff;             /* Kolor tekstu */
+    text-decoration: none;      /* Usuwa domyślne podkreślenie linku */
+    border-radius: 6px;         /* Zaokrąglenie rogów przycisku */
+    font-family: sans-serif;    /* Czcionka */
+    font-weight: bold;          /* Pogrubienie tekstu */
+    
+    /* Płynne przejście efektu po najechaniu myszką */
+    transition: background-color 0.3s ease; 
+}
+
+/* Efekt po najechaniu kursem myszy */
+.przycisk:hover {
+    background-color: #555d66; /* Kolor zmienia się na jaśniejszy szary */
+    cursor: pointer;           /* Zmienia kursor na rączkę */
+}
