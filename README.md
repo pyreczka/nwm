@@ -1,0 +1,1 @@
+Jakaś Stronka Nie Wnikajcie
