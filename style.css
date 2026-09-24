@@ -86,3 +86,14 @@ p {
     background-color: #555d66; /* Kolor zmienia się na jaśniejszy szary */
     cursor: pointer;           /* Zmienia kursor na rączkę */
 }
+
+.nwm {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    cursor: default;
+    outline: none;
+}
