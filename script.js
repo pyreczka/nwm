@@ -5,3 +5,7 @@ document.querySelector('.ladny-przycisk').addEventListener('click', function () 
 document.querySelector('.invisible-btn').addEventListener('click', function () {
     window.location.href = 'https://www.youtube.com/watch?v=nso6Vhg0p9k';
 });
+
+document.querySelector('.nwm').addEventListener('click', function () {
+    window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+});
